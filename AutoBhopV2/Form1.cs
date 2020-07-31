@@ -53,14 +53,15 @@ namespace AutoBhopV2
                         if (result == 0)
                         {
                             m.WriteMemory(fJump, "int", "5");
-                            Thread.Sleep(1);
+                            Thread.Sleep(10);
                             m.WriteMemory(fJump, "int", "4");
-                            Thread.Sleep(1);
+                            
                         }
-                        Thread.Sleep(1);
+                        
                     }
-                    Thread.Sleep(1);
+                    
                 }
+                Thread.Sleep(1);
             }
         }
 
